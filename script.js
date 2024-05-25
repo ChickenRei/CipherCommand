@@ -72,15 +72,7 @@ function startDownload(fileUr) {
           // Show buttons again
           document.querySelector(".buttons").style.display = "block";
 
-          // window.open(fileUr)
-          var path= fileUr;
-          var save = document.createElement('a');  
-          save.href = path; 
-          save.download = "ccommand.asm"; 
-          save.target = '_blank'; 
-          document.body.appendChild(save);
-          save.click();
-          document.body.removeChild(save);
+          window.open(fileUr)
         }
   }, 500);
 }
