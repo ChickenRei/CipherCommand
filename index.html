@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cipher Command - Download</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="keypress-sound">
+        <source src="keypresssound.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <div class="terminal">
+            <div class="header">
+                <h1 class="title typing-animation"></h1>
+            </div>
+            <div class="content">
+                <p class="description typing-animation"></p>
+                <p class="description typing-animation"></p>
+                <div class="buttons"> <!-- Initially hidden -->
+                  <button class="download-btn pdf" onclick="startDownload('path/to/cipher-command.pdf')">Download .pdf (Project Folder)</button>
+                  <button class="download-btn asm" onclick="startDownload('./ccommand.asm')">Download .asm (Code File)</button>
+                  </div>
+                <div class="info">
+                    <p class="version typing-animation"></p>
+                    <p class="developer typing-animation"></p>
+                </div>
+                <p class="copyright typing-animation"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
