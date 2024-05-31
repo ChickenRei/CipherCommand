@@ -2,7 +2,7 @@ const texts = [
   "Cipher Command",
   "Welcome to the Cipher Command Download Page.",
   "Choose an option below to download Cipher Command:",
-  "Version: 1.0",
+  "Version: 1.1",
   "Developer: Daniel Reiman",
   "Copyright (C) 2024 Daniel Reiman. All rights reserved."
 ];
