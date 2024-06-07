@@ -1,0 +1,92 @@
+body {
+  animation: fade-in 2s forwards;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url('./bg.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1e1e1e; /* Dark background */
+  color: #0F0; /* Green text */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+nav {
+  background-color: #333; /* Darker background for navigation */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #0F0; /* Green text for navigation links */
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #1e1e1e; /* Dark background for navigation links */
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #1e1e1e; /* Dark background for footer */
+  color: #0F0; /* Green text for footer */
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#release-notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.release {
+  background-color: #333; /* Dark background for release notes */
+  border: 1px solid #0F0; /* Green border for release notes */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+.release h2 {
+  margin: 0 0 10px;
+  color: #0F0; /* Green text for release notes headings */
+  font-size: 24px;
+}
+
+.release p {
+  margin: 0;
+  color: #fff; /* White text for release notes content */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transition: translateY(20vh);
+  }
+
+  to {
+    opacity: 1;
+    transition: translateY(0);
+  }
+}
+

@@ -4,6 +4,7 @@ const texts = [
   "Choose an option below to download Cipher Command:",
   "Version: 1.1",
   "Developer: Daniel Reiman",
+  "Click here to view the Release Notes",
   "Copyright (C) 2024 Daniel Reiman. All rights reserved."
 ];
 
