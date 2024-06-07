@@ -7,7 +7,7 @@ const releases = [
   },
   {
       version: "v1.1",
-      date: "June 31, 2024",
+      date: "May 31, 2024",
       notes: "Bug fixes and performance improvements"
   },
 ];
